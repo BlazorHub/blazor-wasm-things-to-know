@@ -11,7 +11,7 @@ namespace BlazorLibs.Webcam
         public WebcamService(IJSRuntime jsRuntime)
         {
             _moduleTask = new(() => jsRuntime.InvokeAsync<IJSObjectReference>(
-               "import", "./webcam.js").AsTask());
+               "import", "./_content/BlazorLibs.Webcam/webcam.js").AsTask());
         }
 
         public async Task StartVideoAsync(WebcamOptions options)

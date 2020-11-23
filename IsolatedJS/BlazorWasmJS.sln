@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmJS.Client", "Clie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmJS.Shared", "Shared\BlazorWasmJS.Shared.csproj", "{C719BB7E-435D-4B3D-BA84-E7F6867BC785}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorLibs.Webcam", "BlazorLibs.Webcam\BlazorLibs.Webcam.csproj", "{B06469D8-AFF1-480B-BBA4-9F8CD119825B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C719BB7E-435D-4B3D-BA84-E7F6867BC785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C719BB7E-435D-4B3D-BA84-E7F6867BC785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C719BB7E-435D-4B3D-BA84-E7F6867BC785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06469D8-AFF1-480B-BBA4-9F8CD119825B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06469D8-AFF1-480B-BBA4-9F8CD119825B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06469D8-AFF1-480B-BBA4-9F8CD119825B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06469D8-AFF1-480B-BBA4-9F8CD119825B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
